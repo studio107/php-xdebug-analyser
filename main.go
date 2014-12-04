@@ -167,7 +167,7 @@ func main() {
 		}
 
 		sort.Sort(s)
-		for i, v := range s {
+		for _, v := range s {
 			var row = make(map[string]interface{})
 			if v.Calls == 1 {
 				continue
